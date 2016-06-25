@@ -1,0 +1,49 @@
+@import url('normalize.css');
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 1rem;
+  background: #eeeeee;
+  font-family: 'Montserrat', helvetica, arial, sans-serif;
+}
+.body__wrapper {
+  width: 100%;
+  max-width: 768px;
+  background: #ffffff;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 5px solid #0062a6;
+  border-top: 5px solid #0062a6;
+}
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 300px;
+}
+h2 {
+  margin-top: 2rem;
+  color: #0062a6;
+}
+p {
+  color: #888888;
+  line-height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 550px;
+}
+.highlight {
+  color: #ee253c;
+  font-weight: bold;
+}
+.tweet {
+  margin-bottom: 1rem;
+}
+.copyright {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 2rem;
+}
